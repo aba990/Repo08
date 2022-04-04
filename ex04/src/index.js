@@ -1,7 +1,7 @@
 // write code below this line
 var myGlobalVariable = 10;
 function function1(){
-myLocalVariable =8;
+myLocalVariable = 5;
 }
 // write code above this line
 function function2() {
@@ -10,7 +10,7 @@ function function2() {
 		result += "myGlobalVariable: " + myGlobalVariable;
 	}
 	if(typeof myLocalVariable != "undefined"){
-		result += "myLocalVariable: " + myLocalVariable;
+		result += " myLocalVariable: " + myLocalVariable;
 	}
 console.log(result);
 }
